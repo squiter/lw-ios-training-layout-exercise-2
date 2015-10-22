@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9059" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9049"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="238017.jpeg" translatesAutoresizingMaskIntoConstraints="NO" id="6kQ-u9-huf">
+                                <rect key="frame" x="170" y="80" width="260" height="260"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="260" id="lIr-IW-01t"/>
+                                    <constraint firstAttribute="height" constant="260" id="sWP-q4-N1T"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Squiter" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oQG-Ti-eBV">
+                                <rect key="frame" x="251" y="370" width="98" height="39"/>
+                                <fontDescription key="fontDescription" type="system" weight="light" pointSize="32"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="6kQ-u9-huf" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="30" id="6YO-XC-3Qq"/>
+                            <constraint firstItem="6kQ-u9-huf" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="8of-yq-ecf"/>
+                            <constraint firstItem="6kQ-u9-huf" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="9ap-dH-0Bb"/>
+                            <constraint firstItem="6kQ-u9-huf" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="60" id="Ep9-e3-j36"/>
+                            <constraint firstItem="oQG-Ti-eBV" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="Ryx-j9-PHp"/>
+                            <constraint firstItem="oQG-Ti-eBV" firstAttribute="top" secondItem="6kQ-u9-huf" secondAttribute="bottom" constant="30" id="V5E-XO-ys1"/>
+                            <constraint firstItem="oQG-Ti-eBV" firstAttribute="leading" secondItem="6kQ-u9-huf" secondAttribute="trailing" constant="60" id="caA-05-TiT"/>
+                            <constraint firstItem="oQG-Ti-eBV" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="wN2-ed-fyk"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="6YO-XC-3Qq"/>
+                                <exclude reference="8of-yq-ecf"/>
+                                <exclude reference="Ryx-j9-PHp"/>
+                                <exclude reference="caA-05-TiT"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=compact">
+                            <mask key="constraints">
+                                <include reference="6YO-XC-3Qq"/>
+                                <include reference="8of-yq-ecf"/>
+                                <exclude reference="9ap-dH-0Bb"/>
+                                <exclude reference="Ep9-e3-j36"/>
+                                <include reference="Ryx-j9-PHp"/>
+                                <exclude reference="V5E-XO-ys1"/>
+                                <include reference="caA-05-TiT"/>
+                                <exclude reference="wN2-ed-fyk"/>
+                            </mask>
+                        </variation>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="565" y="477"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="238017.jpeg" width="460" height="460"/>
+    </resources>
+</document>

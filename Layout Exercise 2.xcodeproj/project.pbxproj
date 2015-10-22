@@ -7,14 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		8121D9E01BD9630A004F0438 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8121D9DF1BD9630A004F0438 /* main.m */; };
-		8121D9E31BD9630A004F0438 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8121D9E21BD9630A004F0438 /* AppDelegate.m */; };
-		8121D9E61BD9630A004F0438 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8121D9E51BD9630A004F0438 /* ViewController.m */; };
-		8121D9E91BD9630A004F0438 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8121D9E71BD9630A004F0438 /* Main.storyboard */; };
-		8121D9EB1BD9630A004F0438 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8121D9EA1BD9630A004F0438 /* Assets.xcassets */; };
-		8121D9EE1BD9630A004F0438 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8121D9EC1BD9630A004F0438 /* LaunchScreen.storyboard */; };
 		8121D9F91BD9630B004F0438 /* Layout_Exercise_2Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8121D9F81BD9630B004F0438 /* Layout_Exercise_2Tests.m */; };
 		8121DA041BD9630B004F0438 /* Layout_Exercise_2UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8121DA031BD9630B004F0438 /* Layout_Exercise_2UITests.m */; };
+		8121DA201BD96387004F0438 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8121DA131BD96387004F0438 /* AppDelegate.m */; };
+		8121DA211BD96387004F0438 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8121DA161BD96387004F0438 /* ViewController.m */; };
+		8121DA221BD96387004F0438 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8121DA181BD96387004F0438 /* Assets.xcassets */; };
+		8121DA231BD96387004F0438 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8121DA191BD96387004F0438 /* LaunchScreen.storyboard */; };
+		8121DA241BD96387004F0438 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8121DA1B1BD96387004F0438 /* Main.storyboard */; };
+		8121DA261BD96387004F0438 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8121DA1F1BD96387004F0438 /* main.m */; };
+		8121DA281BD96459004F0438 /* 238017.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 8121DA271BD96459004F0438 /* 238017.jpeg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,21 +37,22 @@
 
 /* Begin PBXFileReference section */
 		8121D9DB1BD9630A004F0438 /* Layout Exercise 2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Layout Exercise 2.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		8121D9DF1BD9630A004F0438 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		8121D9E11BD9630A004F0438 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		8121D9E21BD9630A004F0438 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		8121D9E41BD9630A004F0438 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		8121D9E51BD9630A004F0438 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		8121D9E81BD9630A004F0438 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		8121D9EA1BD9630A004F0438 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		8121D9ED1BD9630A004F0438 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		8121D9EF1BD9630A004F0438 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8121D9F41BD9630A004F0438 /* Layout Exercise 2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Layout Exercise 2Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8121D9F81BD9630B004F0438 /* Layout_Exercise_2Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Layout_Exercise_2Tests.m; sourceTree = "<group>"; };
 		8121D9FA1BD9630B004F0438 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8121D9FF1BD9630B004F0438 /* Layout Exercise 2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Layout Exercise 2UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8121DA031BD9630B004F0438 /* Layout_Exercise_2UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Layout_Exercise_2UITests.m; sourceTree = "<group>"; };
 		8121DA051BD9630B004F0438 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8121DA121BD96387004F0438 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8121DA131BD96387004F0438 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8121DA151BD96387004F0438 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		8121DA161BD96387004F0438 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		8121DA181BD96387004F0438 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8121DA1A1BD96387004F0438 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8121DA1C1BD96387004F0438 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8121DA1E1BD96387004F0438 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8121DA1F1BD96387004F0438 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8121DA271BD96459004F0438 /* 238017.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 238017.jpeg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,25 +103,12 @@
 		8121D9DD1BD9630A004F0438 /* Layout Exercise 2 */ = {
 			isa = PBXGroup;
 			children = (
-				8121D9E11BD9630A004F0438 /* AppDelegate.h */,
-				8121D9E21BD9630A004F0438 /* AppDelegate.m */,
-				8121D9E41BD9630A004F0438 /* ViewController.h */,
-				8121D9E51BD9630A004F0438 /* ViewController.m */,
-				8121D9E71BD9630A004F0438 /* Main.storyboard */,
-				8121D9EA1BD9630A004F0438 /* Assets.xcassets */,
-				8121D9EC1BD9630A004F0438 /* LaunchScreen.storyboard */,
-				8121D9EF1BD9630A004F0438 /* Info.plist */,
-				8121D9DE1BD9630A004F0438 /* Supporting Files */,
+				8121DA111BD96387004F0438 /* AppDelegate */,
+				8121DA141BD96387004F0438 /* Controller */,
+				8121DA171BD96387004F0438 /* Resources */,
+				8121DA1D1BD96387004F0438 /* Supporting Files */,
 			);
 			path = "Layout Exercise 2";
-			sourceTree = "<group>";
-		};
-		8121D9DE1BD9630A004F0438 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				8121D9DF1BD9630A004F0438 /* main.m */,
-			);
-			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 		8121D9F71BD9630A004F0438 /* Layout Exercise 2Tests */ = {
@@ -138,6 +127,44 @@
 				8121DA051BD9630B004F0438 /* Info.plist */,
 			);
 			path = "Layout Exercise 2UITests";
+			sourceTree = "<group>";
+		};
+		8121DA111BD96387004F0438 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				8121DA121BD96387004F0438 /* AppDelegate.h */,
+				8121DA131BD96387004F0438 /* AppDelegate.m */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		8121DA141BD96387004F0438 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				8121DA151BD96387004F0438 /* ViewController.h */,
+				8121DA161BD96387004F0438 /* ViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		8121DA171BD96387004F0438 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				8121DA181BD96387004F0438 /* Assets.xcassets */,
+				8121DA271BD96459004F0438 /* 238017.jpeg */,
+				8121DA191BD96387004F0438 /* LaunchScreen.storyboard */,
+				8121DA1B1BD96387004F0438 /* Main.storyboard */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		8121DA1D1BD96387004F0438 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8121DA1E1BD96387004F0438 /* Info.plist */,
+				8121DA1F1BD96387004F0438 /* main.m */,
+			);
+			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -243,9 +270,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8121D9EE1BD9630A004F0438 /* LaunchScreen.storyboard in Resources */,
-				8121D9EB1BD9630A004F0438 /* Assets.xcassets in Resources */,
-				8121D9E91BD9630A004F0438 /* Main.storyboard in Resources */,
+				8121DA281BD96459004F0438 /* 238017.jpeg in Resources */,
+				8121DA221BD96387004F0438 /* Assets.xcassets in Resources */,
+				8121DA241BD96387004F0438 /* Main.storyboard in Resources */,
+				8121DA231BD96387004F0438 /* LaunchScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,9 +298,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8121D9E61BD9630A004F0438 /* ViewController.m in Sources */,
-				8121D9E31BD9630A004F0438 /* AppDelegate.m in Sources */,
-				8121D9E01BD9630A004F0438 /* main.m in Sources */,
+				8121DA201BD96387004F0438 /* AppDelegate.m in Sources */,
+				8121DA261BD96387004F0438 /* main.m in Sources */,
+				8121DA211BD96387004F0438 /* ViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -308,20 +336,20 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		8121D9E71BD9630A004F0438 /* Main.storyboard */ = {
+		8121DA191BD96387004F0438 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				8121D9E81BD9630A004F0438 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		8121D9EC1BD9630A004F0438 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				8121D9ED1BD9630A004F0438 /* Base */,
+				8121DA1A1BD96387004F0438 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		8121DA1B1BD96387004F0438 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8121DA1C1BD96387004F0438 /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -413,7 +441,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = "Layout Exercise 2/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/Layout Exercise 2/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "squiter.Layout-Exercise-2";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -424,7 +452,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = "Layout Exercise 2/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/Layout Exercise 2/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "squiter.Layout-Exercise-2";
 				PRODUCT_NAME = "$(TARGET_NAME)";
